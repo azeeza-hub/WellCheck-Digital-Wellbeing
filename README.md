@@ -1,16 +1,93 @@
-# React + Vite
+# WellCheck – Digital Wellbeing Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
 
-Currently, two official plugins are available:
+WellCheck is a web-based digital wellbeing platform developed as a Final Year Project to help students understand and manage academic and digital stress.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The platform combines self-assessment, explainable risk identification, personalized recovery activities, and access to counselling support in one system.
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Digital Wellbeing Assessment**
+  Students can complete an assessment to identify potential academic and digital wellbeing risks.
 
-## Expanding the ESLint configuration
+* **Explainable Risk Assessment**
+  The system considers different areas of student wellbeing rather than relying only on an overall score.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Personalized Recovery Plan**
+  Students receive a structured 7-day recovery plan based on their assessment results.
+
+* **Task Verification**
+  Students can upload proof of completed recovery activities for verification.
+
+* **AI-Assisted Image Checking**
+  Uploaded proof can be checked using AI to help verify whether a recovery activity has been completed.
+
+* **Student Dashboard**
+  Provides access to assessments, results, recovery plans, peer reports, and counselling services.
+
+* **Counselling Support**
+  Students can access a counsellor booking feature for additional support.
+
+* **Counsellor Portal**
+  Provides a separate interface for counsellors to interact with student information and support requests.
+
+## 🛠️ Technologies Used
+
+### Frontend
+
+* HTML
+* CSS
+* JavaScript
+* React
+* Vite
+
+### Backend
+
+* Node.js
+* Express.js
+* REST APIs
+
+### Database & Services
+
+* PostgreSQL
+* AI API integration
+
+## 🏗️ Project Structure
+
+```text
+WellCheck-Digital-Wellbeing/
+│
+├── Frontend/
+│   ├── public/
+│   ├── src/
+│   ├── api/
+│   ├── package.json
+│   └── ...
+│
+├── Backend/
+│   ├── config/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── routes/
+│   ├── package.json
+│   └── ...
+│
+└── README.md
+```
+
+## 👩‍💻 My Contribution
+
+I worked on the design and development of the WellCheck platform, including the student-facing interface, wellbeing assessment workflow, recovery plan features, backend integration, and system functionality.
+
+The project involved planning the system requirements, developing the web application, connecting the frontend and backend, working with the database, and integrating AI-assisted functionality.
+
+## 📸 Screenshots
+
+Screenshots of the WellCheck platform will be added here to demonstrate the main interfaces and features.
+
+## 🎓 Project Context
+
+WellCheck was developed as a Final Year Project as part of my BSc Information Technology degree, specializing in Business Information Systems.
+
+The project focused on applying information technology to a practical student wellbeing problem while combining web development, databases, system design, and AI-assisted functionality.

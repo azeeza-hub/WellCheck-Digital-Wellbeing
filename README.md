@@ -18,10 +18,7 @@ The platform combines self-assessment, explainable risk identification, personal
   Students receive a structured 7-day recovery plan based on their assessment results.
 
 * **Task Verification**
-  Students can upload proof of completed recovery activities for verification.
-
-* **AI-Assisted Image Checking**
-  Uploaded proof can be checked using AI to help verify whether a recovery activity has been completed.
+  Students can add text of the task completed recovery activities for verification and will be verified by an AI coach
 
 * **Student Dashboard**
   Provides access to assessments, results, recovery plans, peer reports, and counselling services.
